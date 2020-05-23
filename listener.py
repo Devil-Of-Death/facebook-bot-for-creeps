@@ -11,5 +11,5 @@ class punkjj(Client):
         if author_id != self.uid and author_id not in friends:
             sent=client.sendLocalImage("./images.jpg",message=Message(text="This is a local image"),thread_id=author_id,thread_type=ThreadType.USER,)
 
-client = punkjj("9639463969", "x214Bha8")
+client = punkjj("username", "password")
 client.listen()
